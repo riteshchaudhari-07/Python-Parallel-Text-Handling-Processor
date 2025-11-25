@@ -1,0 +1,17 @@
+__pycache__/
+*.py[codz]
+*$py.class
+
+# Environment variables
+.env
+
+# Databases
+*.db
+checks.db
+
+# Data folder
+data/
+output/
+improver output/
+*.json
+*.txt
