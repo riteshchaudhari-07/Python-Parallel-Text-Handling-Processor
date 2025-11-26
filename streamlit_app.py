@@ -36,8 +36,8 @@ from reportlab.lib.utils import ImageReader
 # Project modules (expected to be available in your project)
 from app.storage.storage2 import Storage
 from app.search_export.search_save import search_in_storage, save_to_csv
-from app.storage.storage_improver2 import StorageImprover
-from app.text_processing.parallel_break_loader2 import pipeline_from_folder
+from app.storage.storage_improver import StorageImprover
+from app.text_processing.parallel_break_loader import pipeline_from_folder
 from app.utils import get_env, ensure_dir
 
 # -----------------------
